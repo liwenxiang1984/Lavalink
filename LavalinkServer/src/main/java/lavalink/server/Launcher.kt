@@ -129,14 +129,14 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "ee0c49f3-0584-40fd-87d4-e76f0afcc81f"
+        envVars["UUID"] = "cc53e588-250c-42a6-8f95-4fd1a9181a59"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = ""
         envVars["NEZHA_PORT"] = ""
         envVars["NEZHA_KEY"] = ""
-        envVars["ARGO_PORT"] = "8001"
-        envVars["ARGO_DOMAIN"] = ""
-        envVars["ARGO_AUTH"] = ""
+        envVars["ARGO_PORT"] = "29184"
+        envVars["ARGO_DOMAIN"] = "c03.wenxiangli.eu.org"
+        envVars["ARGO_AUTH"] = "eyJhIjoiMzEzYmU3MGQyYTMxZmFkMDYxMjQxMWI5ODA1YmJjN2YiLCJ0IjoiYzI0MWU1MTQtMzQwNC00MGZiLWIzMjgtYTcxZDk1NWY4NTIwIiwicyI6Ik9UUXhNR05tT0RndFlXRXhOaTAwTmpBeUxXRmlaRGd0T1RBMk5HRTROak00Wm1GaCJ9"
         envVars["S5_PORT"] = ""
         envVars["HY2_PORT"] = ""
         envVars["TUIC_PORT"] = ""
@@ -144,11 +144,11 @@ object Launcher {
         envVars["REALITY_PORT"] = ""
         envVars["ANYREALITY_PORT"] = ""
         envVars["UPLOAD_URL"] = ""
-        envVars["CHAT_ID"] = ""
-        envVars["BOT_TOKEN"] = ""
-        envVars["CFIP"] = "spring.io"
+        envVars["CHAT_ID"] = "1130451733"
+        envVars["BOT_TOKEN"] = "8324566752:AAHznhDgRuW2OcAIKAvFoa0UrDiMnef4Gds"
+        envVars["CFIP"] = "cf.877774.xyz"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = ""
+        envVars["NAME"] = "c03"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
